@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">J.A.R.V.I.S</string>
+    <string name="system_tag">JARVIS v2.4 MOBILE</string>
+    <string name="status_ready">SYSTEM READY</string>
+    <string name="status_listening">LISTENING...</string>
+    <string name="status_thinking">PROCESSING...</string>
+    <string name="status_speaking">SPEAKING...</string>
+    <string name="btn_talk">TALK</string>
+    <string name="btn_stop">STOP</string>
+    <string name="btn_voice">VOICE</string>
+    <string name="btn_minimize">FLOAT</string>
+    <string name="settings_title">JARVIS CONFIGURATION</string>
+    <string name="api_key_hint">Enter Gemini API Key (AIza...)</string>
+</resources>

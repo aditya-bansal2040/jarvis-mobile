@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/floatingRoot"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@drawable/bg_floating_bubble"
+    android:padding="6dp">
+
+    <!-- Mini Hologram Arc Reactor Icon -->
+    <com.jarvis.mobile.HologramView
+        android:id="@+id/floatingHologramIcon"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="6dp" />
+
+    <!-- Status & Action Buttons -->
+    <LinearLayout
+        android:id="@+id/floatingActions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <!-- Talk Button -->
+        <Button
+            android:id="@+id/btnFloatingTalk"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:text="🎤"
+            android:textColor="@color/primary_cyan"
+            android:textSize="14sp"
+            android:background="@drawable/bg_btn_ctrl"
+            android:layout_marginEnd="4dp" />
+
+        <!-- Stop Button -->
+        <Button
+            android:id="@+id/btnFloatingStop"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:text="⏹"
+            android:textColor="@color/danger_red"
+            android:textSize="14sp"
+            android:background="@drawable/bg_btn_ctrl"
+            android:layout_marginEnd="4dp" />
+
+        <!-- Expand / Fullscreen Button -->
+        <Button
+            android:id="@+id/btnFloatingExpand"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:text="⛶"
+            android:textColor="@color/primary_cyan"
+            android:textSize="14sp"
+            android:background="@drawable/bg_btn_ctrl" />
+
+    </LinearLayout>
+
+</LinearLayout>

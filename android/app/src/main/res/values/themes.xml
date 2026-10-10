@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.JarvisMobile" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/deep_background</item>
+        <item name="android:statusBarColor">@color/deep_background</item>
+        <item name="android:navigationBarColor">@color/deep_background</item>
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+</resources>
